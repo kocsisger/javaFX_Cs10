@@ -6,6 +6,20 @@ import javafx.scene.control.Label;
 public class MainController {
 
     @FXML
+    private Label creditsLabel;
+
+    @FXML
+    private Label dateOfBirthLabel;
+
+    @FXML
+    private Label nameLabel;
+
+    @FXML
+    void handleLoadButtonClicked() {
+
+    }
+
+    @FXML
     private Label seasonsLabel;
 
     @FXML
