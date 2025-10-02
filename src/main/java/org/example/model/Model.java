@@ -5,6 +5,10 @@ import java.time.LocalDate;
 public class Model {
     private Student student;
 
+    public Student getStudent() {
+        return student;
+    }
+
     public Model() {
         this.student = new Student(
                 "Robert Smith",
